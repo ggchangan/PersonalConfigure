@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><templates><template autoinsert="true" context="fieldcomment_context" deleted="false" description="字段的注释" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.fieldcomment" name="fieldcomment">/**
+ * 
+ */</template><template autoinsert="true" context="gettercomment_context" deleted="false" description="getter 方法的注释" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.gettercomment" name="gettercomment">/**
+ * @return 返回 ${bare_field_name}。
+
+ */</template><template autoinsert="false" context="overridecomment_context" deleted="false" description="覆盖方法的注释" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.overridecomment" name="overridecomment">/**
+ * 功能:
+ * &lt;br /&gt;作者: 张忍
+ * &lt;br /&gt;创建日期:${date}
+ * &lt;br /&gt;修改者: mender
+ * &lt;br /&gt;修改日期: modifydate
+ * ${tags}
+ * ${see_to_overridden}
+ */</template><template autoinsert="true" context="delegatecomment_context" deleted="false" description="Comment for delegate methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.delegatecomment" name="delegatecomment">/**
+ * ${tags}
+ * ${see_to_target}
+ */</template><template autoinsert="false" context="typecomment_context" deleted="false" description="创建的类型的注释" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.typecomment" name="typecomment">/**
+ * 创建日期:${date}
+ * &lt;br /&gt;Description：对本文件的详细描述，原则上不能少于50字
+ * @author 张忍
+ * @mender：（文件的修改者，文件创建者之外的人）
+ * @version 1.0
+ * Remark：认为有必要的其他信息
+ * ${tags}
+ */
+</template><template autoinsert="true" context="constructorcomment_context" deleted="false" description="创建的构造函数的注释" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.constructorcomment" name="constructorcomment">/**
+ * ${tags}
+ */</template><template autoinsert="false" context="methodcomment_context" deleted="false" description="非覆盖方法的注释" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name="methodcomment">/**
+ * 功能:
+ *&lt;br /&gt; 作者: 张忍
+ * &lt;br /&gt;创建日期:${date}
+ * &lt;br /&gt;修改者: mender
+ * &lt;br /&gt;修改日期: modifydate
+ * ${tags}
+ */</template><template autoinsert="false" context="filecomment_context" deleted="false" description="已创建的 Java 文件的注释" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.filecomment" name="filecomment">/**
+ * Copyright(c)${year} Beijing ieforever Co. Ltd.
+ * All right reserved.
+ * &lt;br /&gt;创建日期:${date}
+ */
+</template><template autoinsert="true" context="settercomment_context" deleted="false" description="setter 方法的注释" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.settercomment" name="settercomment">/**
+ * @param ${param} 要设置的 ${bare_field_name}。
+
+ */</template></templates>
